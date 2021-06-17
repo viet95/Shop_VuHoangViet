@@ -1,0 +1,4 @@
+Implement shop interface (750 x 1334)
+Task1: Use the given Images and combine with the file "ShopItems.json" to build an interface of 999 items according to the template (Reference_Step1.png)
+Task2: Click on the item to show more details (Reference_Step2.png)
+Task3: Optimize, Build android apk, Push project to github and share the link
