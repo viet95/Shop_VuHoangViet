@@ -376,6 +376,7 @@ MonoBehaviour:
   iconImg: {fileID: 5560250667959728051}
   nameTxt: {fileID: 5560250668094869462}
   priceTxt: {fileID: 5560250668003833774}
+  atlas: {fileID: 4343727234628468602, guid: d9bae935204fd4eaf940801b9b02b947, type: 2}
 --- !u!1 &5560250667136930793
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +520,7 @@ MonoBehaviour:
   iconImg: {fileID: 5560250667799533991}
   nameTxt: {fileID: 5560250667833445674}
   priceTxt: {fileID: 5560250666590424323}
+  atlas: {fileID: 4343727234628468602, guid: d9bae935204fd4eaf940801b9b02b947, type: 2}
 --- !u!1 &5560250667376587782
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +739,7 @@ MonoBehaviour:
   iconImg: {fileID: 5560250666332995695}
   nameTxt: {fileID: 5560250667771700342}
   priceTxt: {fileID: 5560250667728658423}
+  atlas: {fileID: 4343727234628468602, guid: d9bae935204fd4eaf940801b9b02b947, type: 2}
 --- !u!1 &5560250667728658409
 GameObject:
   m_ObjectHideFlags: 0

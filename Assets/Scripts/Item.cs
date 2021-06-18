@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.U2D;
 
 public class Item : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class Item : MonoBehaviour
 
     Button btn;
 
+    public SpriteAtlas atlas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +38,7 @@ public class Item : MonoBehaviour
 
     public void setItem()
     {
-        iconImg.sprite = Resources.Load<Sprite>("ShopItems/" + icon);
+        iconImg.sprite = atlas.GetSprite(icon);
         nameTxt.text = name;
         priceTxt.text = price.ToString();
     }
